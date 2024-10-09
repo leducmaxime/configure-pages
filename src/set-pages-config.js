@@ -50,11 +50,11 @@ function getConfigParserSettings({ staticSiteGenerator, generatorConfigFile, sit
 
           // Configure a base path
           // https://nextjs.org/docs/app/api-reference/next-config-js/basePath
-          basePath: path,
+          basePath: path
 
           // Disable server side image optimization too
           // https://nextjs.org/docs/api-reference/next/image#unoptimized
-          'images.unoptimized': true
+          // 'images.unoptimized': true
         }
       }
     case 'gatsby':
